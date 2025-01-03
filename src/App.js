@@ -15,7 +15,7 @@ function App() {
   
   useEffect(() => {
     axios
-      .get("https://gallery-backend-sw9v.onrender.com/api/get")
+      .get("https://gallery-backend-ltwx.onrender.com/api/get")
       .then((res) => {
         console.log(res.data);
         setPhotos(res.data);
